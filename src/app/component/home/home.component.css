@@ -18,22 +18,32 @@ body {
 }
 
 .wrapper div {
-    border: 3px solid rgb(248, 0, 0);
+    /* border: 3px solid rgb(248, 0, 0); */
     border-radius: 10px;
+
+}
+
+.grid {
+    margin: 10px;
+
 }
 
 .no-outline {
     border-radius: 20px;
 }
 
+.grid1 {
+    background-color: #fffbe3;
+}
 
-/* .grid5{
- 
-  
-} */
+.grid2 {
+    background-color: #fff097;
+}
 
+.grid3 {
+    background-color: #fff4b0;
+}
 
-/* .small-img {
-    width: 150px;
-    height: auto;
-  } */
+.grid5 {
+    background-color: #f5ffe3;
+}
