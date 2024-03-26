@@ -27,7 +27,7 @@
         <img [src]="'https://ldv-sushi-api.azurewebsites.net/api/image/' + box?.image" class="card-img-top img-thumbnail" alt="...">
       </div>
       <div class="flip-card-back">
-        <p *ngFor="let saveurs of box?.saveurs" class="face2">{{saveurs}}</p>
+        <p *ngFor="let saveurs of box?.saveurs">{{saveurs}}</p>
       </div>
     </div>
   </div> 

@@ -13,6 +13,7 @@ export class CardComponent {
   box: Box | undefined
   qte: number 
   afficheDetail=false
+nbPiece: any;
 
   constructor(private panierService: PanierService) {
     //Etape 1 : recuperer les ligne du panier
