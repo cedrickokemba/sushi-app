@@ -6,14 +6,16 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './component/home/home.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { DetailsComponent } from './component/details/details.component';
-import { MenuComponent } from './component/menu/menu.component';
+import { CardComponent } from './component/card/card.component';
+import { PanierComponent } from './component/panier/panier.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     DetailsComponent,
-    MenuComponent,
+    CardComponent,
+    PanierComponent,
   ],
   imports: [
     BrowserModule,
